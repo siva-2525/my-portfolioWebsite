@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <div class="container-fluid py-3 container1">
+    <div class="row align-items-center">
+      <div class="col-sm-6">
+        <h1 class="text-info">My Portfolio</h1>
+      </div>
+      <div class="col-sm-6">
+        <div class="links">
+          <a href="#About">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== HERO SECTION ===== -->
+  <div class="container py-5" style="padding-top: 120px;">
+    <div class="row align-items-center p-5">
+      <div class="col-md-5 text-center">
+        <img src="siva.png" alt="Profile" class="rounded-circle profile img-fluid" style="max-width: 75%; height: auto;" />
+      </div>
+      <div class="col-md-7">
+        <h1 class="bio">Hi, I'm <span>Rupanagudi Sivareddy</span></h1>
+        <h3>Aspiring Java Full Stack Developer</h3>
+        <p class="para">
+          Passionate about technology innovation, embedded systems, and full-stack development. Ready to contribute to cutting-edge projects and grow in the tech industry.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about">
+    <div class="container text-center" id="About">
+      <h1>About Me</h1>
+      <p>
+        I am a dedicated and motivated computer science graduate with a strong passion for
+        <span style="color:#00d4ff;">full-stack development</span> and
+        <span style="color:#00d4ff;">embedded systems</span>. My interest lies in designing
+        interactive, user-friendly, and efficient web applications that solve real-world problems.
+      </p>
+      <p>
+        Throughout my academic journey, I have built multiple projects — from creating dynamic
+        web applications using <b>HTML, CSS, Bootstrap, and JavaScript</b> to implementing
+        backend solutions using <b>Java, JDBC, and MySQL</b>. I also explored embedded systems by
+        working with <b>microcontrollers and Arduino</b>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION SECTION ===== -->
+  <section id="education">
+    <div class="container text-center">
+      <h1>Education</h1>
+
+      <div class="edu-card">
+        <h4>Bachelor of Technology (B.Tech) – Electronics and Communication Engineering</h4>
+        <h5>GMR Institute of Technology, Rajam</h5>
+        <p>2021 – 2025 | CGPA: 8.0</p>
+      </div>
+
+      <div class="edu-card">
+        <h4>Intermediate – MPC</h4>
+        <h5>Oxford Junior College, Narasaraopet</h5>
+        <p>2019 – 2021 | Marks: 955</p>
+      </div>
+
+      <div class="edu-card">
+        <h4>Secondary School Certificate (SSC)</h4>
+        <h5>Sri Jahnavi High School, Gangavaram</h5>
+        <p>2018 – 2019 | CGPA: 10.0</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section id="skills">
+    <div class="container text-center">
+      <h1>Skills</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="skill"><div class="skill-name">Java</div><div class="progress"><div class="progress-bar" style="width: 90%"></div></div></div>
+          <div class="skill"><div class="skill-name">Python</div><div class="progress"><div class="progress-bar" style="width: 80%"></div></div></div>
+          <div class="skill"><div class="skill-name">MySQL / PL-SQL</div><div class="progress"><div class="progress-bar" style="width: 85%"></div></div></div>
+          <div class="skill"><div class="skill-name">HTML & CSS</div><div class="progress"><div class="progress-bar" style="width: 95%"></div></div></div>
+          <div class="skill"><div class="skill-name">Bootstrap</div><div class="progress"><div class="progress-bar" style="width: 85%"></div></div></div>
+          <div class="skill"><div class="skill-name">Time Management & Teamwork</div><div class="progress"><div class="progress-bar" style="width: 90%"></div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects">
+    <div class="container text-center">
+      <h1>Projects</h1>
+      <div class="project-card">
+        <h4>Online Banking & Wallet System</h4>
+        <p>Developed a console-based banking and wallet application implementing OOP concepts in Java.</p>
+      </div>
+      <div class="project-card">
+        <h4>Weather Report Application</h4>
+        <p>Built a front-end web app using HTML, CSS, and JavaScript integrating a weather API.</p>
+      </div>
+      <div class="project-card">
+        <h4>Design and Analysis of Dual Coupling BLE PIFA Antenna</h4>
+        <p>Designed a compact Bluetooth Low Energy antenna for smartphone and wearable devices.</p>
+      </div>
+      <div class="project-card">
+        <h4>Guess the Random Number (Java)</h4>
+        <p>Created a Java console game demonstrating control structures and loops.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact">
+    <div class="container text-center py-5">
+      <h1>Get in Touch</h1>
+      <p class="mb-4">Ready to start your next project? Let's discuss how we can work together.</p>
+
+      <form class="row g-3 justify-content-center" action="mailto:rupanagudisivareddy@gmail.com" method="post" enctype="text/plain">
+        <div class="col-md-5"><input type="text" class="form-control" placeholder="Name" name="Name" required></div>
+        <div class="col-md-5"><input type="email" class="form-control" placeholder="Email" name="Email" required></div>
+        <div class="col-md-10"><input type="text" class="form-control" placeholder="Subject" name="Subject" required></div>
+        <div class="col-md-10"><textarea class="form-control" placeholder="Message" name="Message" rows="5" required></textarea></div>
+        <div class="col-12"><button type="submit" class="btn btn-primary">Send Message</button></div>
+      </form>
+
+      <!-- ===== CONTACT INFO CARDS ===== -->
+      <div class="container text-center mt-5">
+        <div class="row justify-content-center">
+          <div class="col-md-3 contact-card p-4 m-2">
+            <i class="fas fa-envelope fa-2x mb-2"></i>
+            <h5>Email</h5>
+            <p>rupanagudisivareddy@gmail.com</p>
+          </div>
+          <div class="col-md-3 contact-card p-4 m-2">
+            <i class="fas fa-phone fa-2x mb-2"></i>
+            <h5>Phone</h5>
+            <p>+91 7416766316</p>
+          </div>
+          <div class="col-md-3 contact-card p-4 m-2">
+            <i class="fab fa-linkedin fa-2x mb-2"></i>
+            <h5>LinkedIn</h5>
+            <p><a href="https://linkedin.com/in/siva-reddy" target="_blank" style="color:white; text-decoration:none;">Siva Reddy</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME DOWNLOAD SECTION ===== -->
+  <section id="resume" class="text-center py-5">
+    <h1>Download My Resume</h1>
+<a href="https://drive.google.com/uc?export=download&id=1E3S4FPlKK6ZDV-MYiuYM6Hr8sesW5skm" class="btn btn-outline-light"  download>
+   Download Resume
+</a>  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="text-center py-3">
+    <p>&copy; 2025 Rupanagudi Sivareddy. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
